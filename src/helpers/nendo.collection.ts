@@ -1,7 +1,7 @@
 import { Figure } from "../interface/figure.interface";
 
-import b2 from '../assets/images/Thumbs/nendo/nen-b2.png';
-import a2 from '../assets/images/Thumbs/nendo/nen-a2.png';
+import ados from '../assets/images/Thumbs/nendo/nen-ados.png';
+import dosb from '../assets/images/Thumbs/nendo/nen-dosb.png';
 import darkness from '../assets/images/Thumbs/nendo/nen-darkness.png';
 import dva from '../assets/images/Thumbs/nendo/nen-dva.png';
 import dvaskin from '../assets/images/Thumbs/nendo/nen-dvaskin.png';
@@ -35,10 +35,10 @@ export const nendo:Figure[] =[
         img:darkness
     },
     {
-        img:a2
+        img:ados
     },
     {
-        img:b2
+        img:dosb
     },
     {
         img:dva
