@@ -17,17 +17,15 @@ import yugi from '../assets/images/Thumbs/figma/fig-yugi.png';
 
 
 export const figma:Figure[] =[
+    
     {
-        img:red
+        img:elsa
     },
     {
-        img:gloria
+        img:maga
     },
     {
-        img:marnie
-    },
-    {
-        img:selene
+        img:yugi
     },
     {
         img:aqua   
@@ -48,13 +46,16 @@ export const figma:Figure[] =[
         img:kanu
     },
     {
-        img:yugi
+        img:red
     },
     {
-        img:maga
+        img:gloria
     },
     {
-        img:elsa
+        img:marnie
+    },
+    {
+        img:selene
     },
   
     

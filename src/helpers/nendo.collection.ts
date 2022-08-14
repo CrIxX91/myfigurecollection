@@ -48,7 +48,7 @@ export const nendo:Figure[] =[
     },
     {
         img:tracer
-    },
+    }, 
     {
         img:mai
     },
@@ -57,7 +57,8 @@ export const nendo:Figure[] =[
     },
     {
         img:lillie
-    }
+    },
+   
 
 
 ]

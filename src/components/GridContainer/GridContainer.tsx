@@ -1,11 +1,14 @@
 import { Col, Container, Row } from "react-bootstrap"
-import { sh,koto,nendo,figma, vah } from "../../helpers";
-import { GridItem } from "../GridItem/GridItem"
+import { sh,koto,nendo,figma, vah, others, bunny, banpresto, popup, cupoche, prize, resfigu } from "../../helpers";
+
+import { GridItem } from "../GridItem/GridItem";
 
 
 export const GridContainer = () => {
 
-  const fCollection = [...koto,...sh,...figma,...vah,...nendo];
+  const fCollection = [...koto,...sh,...figma,...others,...vah,...cupoche,...nendo,...bunny,...banpresto,...popup,...prize,...resfigu];
+
+  console.log(fCollection.length);
 
   return (
     <Container className="marginPage">
