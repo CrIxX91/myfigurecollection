@@ -164,6 +164,10 @@ html, body {
   }
 }
 
+.marginPage{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 
 ::-webkit-scrollbar {
   width: 20px;
@@ -191,4 +195,59 @@ html, body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
+}
+/* 
+@media (max-width: 425px) {
+  .grid-element {
+  
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+    min-width: 180px;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;  
+    color: white;
+    padding-bottom: 1em;
+  }
+
+  .marginPage{
+    margin: 2em 0;
+  }
+} */
+
+@media (max-width: 575px){
+  .grid-element {
+    min-width: 180px;
+    min-height: 500px;
+    
+  }
+
+  .marginPage{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 767px){
+  .marginPage{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 991px){
+  
+  .marginPage{
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 1199px){
+  .marginPage{
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
 }

@@ -1,15 +1,14 @@
 import { Col, Container, Row } from "react-bootstrap"
-import { sh,koto,nendo } from "../../helpers";
-
+import { sh,koto,nendo,figma, vah } from "../../helpers";
 import { GridItem } from "../GridItem/GridItem"
 
 
 export const GridContainer = () => {
 
-  const fCollection = [...koto,...sh,...nendo];
+  const fCollection = [...koto,...sh,...figma,...vah,...nendo];
 
   return (
-    <Container style={{marginTop:'6em'}}>
+    <Container className="marginPage">
       <Row >
         {
           fCollection.map((figure,index)=>(
