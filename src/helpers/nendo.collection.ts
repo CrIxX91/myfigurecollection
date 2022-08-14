@@ -1,6 +1,6 @@
 import { Figure } from "../interface/figure.interface";
 
-import b2 from '../assets/images/Thumbs/nendo/nen-2b.png';
+import b2 from '../assets/images/Thumbs/nendo/nen-b2.png';
 import a2 from '../assets/images/Thumbs/nendo/nen-a2.png';
 import darkness from '../assets/images/Thumbs/nendo/nen-darkness.png';
 import dva from '../assets/images/Thumbs/nendo/nen-dva.png';
