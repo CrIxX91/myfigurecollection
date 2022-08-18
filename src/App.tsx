@@ -12,7 +12,7 @@ function App() {
 
       <div className="grid-bg ba-grid anim">
         <div className="inner">
-          <GridContainer/>
+        <GridContainer/>
         </div>
       </div>
       

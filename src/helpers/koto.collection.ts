@@ -12,6 +12,12 @@ import mago from '../assets/images/Thumbs/koto/koto-mago.png';
 import red from '../assets/images/Thumbs/koto/koto-red.png';
 import yugi from '../assets/images/Thumbs/koto/koto-yugi.png';
 
+import may from '../assets/images/Thumbs/nuevas/koto-may.png';
+import morrigan from '../assets/images/Thumbs/nuevas/koto-morrigan.png';
+import mai from '../assets/images/Thumbs/nuevas/koto-mai.png';
+
+
+
 
 export const koto:Figure[] =[
     
@@ -30,9 +36,21 @@ export const koto:Figure[] =[
     {
         img:dam
     },
+    
+    {
+        img:may
+    },
     {
         img:cintya
     },
+    {
+        img:morrigan
+    },
+    
+    {
+        img:mai
+    },
+
     {
         img:atem
     },

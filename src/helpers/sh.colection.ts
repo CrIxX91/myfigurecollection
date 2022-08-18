@@ -11,9 +11,25 @@ import mewtwo from "../assets/images/Thumbs/sh/sh-mewtwo.png";
 import androide from "../assets/images/Thumbs/sh/sh-21.png";
 import kaiba from "../assets/images/Thumbs/sh/rev-kaiba.png";
 
+import sakurayae from "../assets/images/Thumbs/nuevas/apex-sakura.png";
+import kanu from "../assets/images/Thumbs/nuevas/furro-kanu.png";
+import lucy from "../assets/images/Thumbs/nuevas/gs-lucy.png";
+
 
 export const sh:Figure[] =[
     
+    {
+        name:'kaiba',
+        img:lucy
+    },
+    {
+        name:'kaiba',
+        img:kanu
+    },
+    {
+        name:'kaiba',
+        img:sakurayae
+    },
     {
         name:'kaiba',
         img:kaiba
